@@ -1,0 +1,22 @@
+development:
+  host: localhost
+  adapter: mysql
+  database: rails_tests_development
+  username: castle
+  password:
+  timeout: 5000
+  encoding: utf8
+test:
+  adapter: mysql
+  database: rails_tests_test
+  username: castle
+  password:
+  timeout: 5000
+
+  production:
+    adapter: mysql
+    host: pldb1.colo0
+    database: castle_production
+    username: castle
+    password: runn1nW1LDonY0U
+    timeout: 5000
